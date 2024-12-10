@@ -1,0 +1,125 @@
+@media screen and (max-width: 1300px) {
+    .offers-title{
+        margin-right: 0;
+    }
+    .offer-button{
+        margin-right: 0;
+    }
+    .mission-list {
+        gap: 40px;
+    }
+    .mission{
+        height: auto;
+    }
+    .team-list{
+        gap: 30px;
+    }
+    .footer-content{
+        margin-left: 20px;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 860px){
+    .logo {
+      margin-right: 50px;
+    }
+    .navigation-list{
+        column-gap: 50px;
+  
+    }
+    .email{
+      font-size: 10px;
+      padding-top: 4px;
+    }
+    .phone-number{
+      font-size: 10px;
+      padding-top: 4px;
+    }
+    .contacts{
+        gap: 20px;
+        margin-right: 10px;
+    }
+    .offers-title{
+        margin-right: 0;
+    }
+    .offer-button{
+        margin-right: 0;
+    }
+    .benefit-list{
+    flex-direction: column;
+    gap: 30px;
+    }
+    .benefit-item{
+        margin: 0;
+    }
+    .mission {
+        height: auto; 
+        margin-bottom: 20px; 
+      }
+      
+      .team {
+        margin-top: 40px; 
+      }
+      
+      .mission-list {
+        gap: 30px;
+      }
+    
+      .team-list {
+        flex-direction: column; 
+        gap: 30px;
+      }
+    
+      .team-member-card {
+        margin-right: 0;
+      }
+      .team-title{
+        margin-right: 0;
+    }
+    
+  }
+
+  @media screen and (max-width: 695px){
+    .logo {
+        margin-right: 40px;
+    }
+    .navigation-item{
+        
+    }
+    .header-content{
+        flex-direction: column;
+        gap: 7px;
+    }
+    .contacts {
+        gap: 30px;
+    }
+    .offers-title{
+        font-size: 36px;
+    }
+    .offers{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .mission {
+        padding-top: 80px; 
+        padding-bottom: 80px; 
+        height: auto; 
+        margin-bottom: 30px; 
+      }
+    
+      .team {
+        padding-top: 40px; 
+      }
+    
+      .team-list {
+        flex-direction: column;
+        gap: 25px;
+      }
+    
+      
+  }
