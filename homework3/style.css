@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#82CCDD;
+}
+
+.credit-card-form-box{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    width: 360px;
+padding: 16px 30px 30px 30px;
+gap: 24px;
+border-radius: 20px;
+}
+
+.payment-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.payment-img{
+    width: 104px;
+height: 65px;
+}
+.payment-info-title{
+    font-family: "Roboto";
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+}
+
+.card-title {
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 10px;
+line-height: 18.75px;
+}
+.container{
+    display: flex;
+    padding-bottom: 24px;
+    flex-direction: column;
+}
+.container-exp-cvv{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-bottom: 24px;
+}
+
+.textarea {
+    width:300px;
+height:40px;
+padding: 8px 12px 8px 12px;
+gap: 10px;
+border-radius: 10px ;
+border: 1px solid #E2E6EE;
+font-family: Roboto;
+font-size: 16px;
+background-color:#E2E6EE;
+}
+.textarea:focus{
+    background-color:white;
+    color: black;
+    outline: none;
+}
+
+.textarea.saved{
+    background-color: white;
+    color: black;
+}
+
+#textarea-exp,
+#textarea-cvv{
+    width: 144px;
+}
+
+.button {
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #288FB4;
+    border: 1px solid #288FB4; /* Если у кнопки есть бордер, это точно укажет его */
+}
+
+#container-button {
+    padding-bottom: 8px;
+}
+
+button:focus {
+    
+    outline: none; /* Убирает контур, который может появляться при фокусе */
+    box-shadow: none; /* Убирает тень при фокусе */
+}
+
+
+.button-text{
+    color: #E2E6EE;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.41px;
+}
+
+.payment-description{
+    display: flex;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 300;
+line-height: 14.06px;
+justify-content: center;
+
+}

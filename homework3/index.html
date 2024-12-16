@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="credit-card-form-box">
+      <div class="payment-info-container">
+        <img
+          src="./Happy Bunch Avatar.png"
+          alt="payment-info-img"
+          class="payment-img"
+        />
+        <h2 class="payment-info-title">Payment info</h2>
+      </div>
+      <form action="" class="credit-card-form">
+        <div class="container">
+          <p class="card-title">Full Name</p>
+          <div class="wrapper">
+            <input type="text" class="textarea" placeholder="Alex Smith"/>
+          </div>
+        </div>
+        <div class="container">
+          <p class="card-title">Credit Card Number</p>
+          <div class="wrapper">
+            <input type="text" class="textarea" placeholder="1234 1234 1234 1234"  />
+          </div>
+        </div>
+        <div class="container-exp-cvv">
+          <div class="container-exp">
+            <p class="card-title">Exp Date</p>
+            <div class="wrapper">
+              <input type="text" class="textarea" id="textarea-exp" placeholder="MM/YY" />
+            </div>
+          </div>
+          <div class="container-cvv">
+            <p class="card-title">CVV</p>
+            <div class="wrapper">
+              <input type="text" class="textarea" id="textarea-cvv" placeholder="•••" />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <p class="card-title">Zip Code</p>
+          <div class="wrapper">
+            <input type="text" class="textarea" placeholder="90211" />
+          </div>
+        </div>
+        <div class="container" id="container-button">
+          <button type="submit" class="button"><p class="button-text">Confirm Payment</p></button>
+        </div>
+        <p class="payment-description">You verify that this info is correct</p>
+      </form>
+    </div>
+  </body>
+</html>
